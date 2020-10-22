@@ -75,6 +75,7 @@ function App() {
           Edit {votesRequired}<code>packages/react-app/src/App.js</code> and save to reload.
         </p>
         {/* Remove the "hidden" prop and open the JavaScript console in the browser to see what this function does */}
+
         <Button onClick={() => ReadOnChainData()}>
           Read On-Chain Data
         </Button>
