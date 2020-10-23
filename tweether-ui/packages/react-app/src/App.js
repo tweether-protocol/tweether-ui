@@ -7,6 +7,7 @@ import Web3 from "web3"
 import { Body, Button, Header, Image, Link } from "./components"
 import { web3Modal, logoutOfWeb3Modal } from './utils/web3Modal'
 import logo from "./img/tweeter.png"
+import bg from "./img/background.png"
 
 import { addresses, abis } from "@project/contracts"
 
@@ -123,12 +124,12 @@ class App extends Component {
     }
 
     return (
-      <div style={{ backgroundColor: "powderblue" }}>
-        <h1>
+      <div className="background">
+        <h1 >
           Tweether
         </h1>
         { content}
-        <Body class="bg-image" >
+        <Body  >
           <Image src={logo} alt="tweether-logo" />
           <p>Current Tweet Selected: <br />{this.state.proposal}</p>
           <p>Current Votes: <br />{this.state.proposalVotes}</p>

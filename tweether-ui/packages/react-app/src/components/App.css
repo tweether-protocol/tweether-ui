@@ -1,1 +1,4 @@
 /* Styles go here */
+.background {
+  background-image: url('img/background.png');
+}
