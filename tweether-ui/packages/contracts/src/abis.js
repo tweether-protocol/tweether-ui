@@ -10,7 +10,7 @@ const abis = {
   ownable: ownableAbi,
   tweether: tweetherAbi,
   nftwe: nftweAbi,
-  linktoken: linkAbi
+  link: linkAbi
 }
 
 export default abis
